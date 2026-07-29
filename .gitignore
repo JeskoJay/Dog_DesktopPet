@@ -2,7 +2,9 @@
 __pycache__/
 *.pyc
 build/
-dist/
+dist/*
+# 放行打包好的可执行文件，方便别人直接下载使用
+!dist/小狗桌宠.exe
 
 # ── Local work / session memory (explicitly excluded) ──
 .workbuddy/
