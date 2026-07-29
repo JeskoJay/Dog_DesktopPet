@@ -1,0 +1,13 @@
+# ── Generated / build artifacts (not source) ──
+__pycache__/
+*.pyc
+build/
+dist/
+
+# ── Local work / session memory (explicitly excluded) ──
+.workbuddy/
+
+# ── Dev junk ──
+err_exe.txt
+err_py.txt
+linedog_wip.txt
